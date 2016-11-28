@@ -15,8 +15,10 @@ COPY package.json /usr/src/app/
 # Run the basic command to install node and it's dependancy.
 RUN npm install
 
+RUN npm install mocha
+
 # Copy the content of the current dir (and sub-dir) to the container's 'WORKDIR'.
-COPY . /usr/src/app
+COPY . /usr/src/app/
 
 # Expose the port 8080 which is used by the container.
 EXPOSE 8080

@@ -6,9 +6,3 @@ test:
   override:
     - docker-compose up -d
     - mocha
-
-deployment:
-  hub:
-    branch: dev
-    commands:
-      - $DEPLOY
