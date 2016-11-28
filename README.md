@@ -1,6 +1,6 @@
 # Node.JS Server
 
-This readme help you to build and run the current part of the project.
+This  readme help you to build and run the current part of the project.
 Slides: http://slides.com/adrienfenech/mti-devops/fullscreen
 
 ## Using command line and Dockerfile:
