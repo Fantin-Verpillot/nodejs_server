@@ -1,8 +1,8 @@
 machine:
-	services:
-		- docker
+  services:
+    - docker
 
 test:
-	override:
-		- docker-compose up -d
-		- mocha
+  override:
+    - docker-compose up -d
+    - mocha
